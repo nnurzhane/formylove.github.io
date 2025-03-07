@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <title>Жаным Нурайга</title>
+  <title>Нурайга</title>
   <style>
     body {
       margin: 0;
@@ -9,8 +9,7 @@
       font-family: 'Pacifico', cursive;
       background: pink; 
       color: #333; 
-      overflow-y: auto;
-      overflow-x: hidden;
+      overflow: hidden;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -1793,20 +1792,19 @@
       -webkit-animation-play-state: paused !important;
       animation-play-state: paused !important;
     } 
-
   </style>
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 <body class="container">
-  <div class="night"><a class="by" link href="https://www.instagram.com/nnurzhane/">С любовью Нуржаннан</a></div>
+  <div class="night"><a class="by" link href="https://www.instagram.com/nnurzhane/">By nnurzhane</a></div>
   <div class="text">
     <div class="wrapper">
       <div class="lid one"></div>
       <div class="lid two"></div>
       <div class="envelope"></div>
       <div class="letter">
-        <p>❤️
-          
+        <p>С праздником тебя жаным❤️
+
         </p>
       </div>
     </div>
@@ -2131,9 +2129,14 @@
     <p></p>
   </div>
 
-  <div id="emptyField"></div>
+  <a href="Janym2.html" target="_blank" style="position: fixed; bottom: 20px; left: 20px; padding: 10px 20px; background-color: #D43F5E; color: white; text-decoration: none; border-radius: 10px; z-index: 1000;">
+    Мынаны бас
+  </a>
 
   <script>
+    function showMessage() {
+      alert('Лепестки падают!');
+    }
     
     onload = () => {
       document.body.classList.remove("container");
@@ -2154,7 +2157,6 @@
         closeBtn.style.display = "none";
         openBtn.style.display = "inline-block";
     });
-
   </script>
 </body>
 </html>
